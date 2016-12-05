@@ -1,4 +1,5 @@
 $(window).on('scroll',function(){
+  var fig = foo;
   var list=$('article');
   var listArr=makeAnArray(list);
   var scrollDist=$(window).scrollTop();
